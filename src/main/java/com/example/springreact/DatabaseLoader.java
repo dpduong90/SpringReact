@@ -1,4 +1,4 @@
-package demo.model;
+package com.example.springreact;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -17,8 +17,8 @@ public class DatabaseLoader implements CommandLineRunner {
 	@Override
 	public void run(String... strings) throws Exception {
 		this.repository.save(new Employee("Joe Biden", 45, 5));
-        this.repository.save(new Employee("President Obama", 54, 8));
-        this.repository.save(new Employee("Crystal Mac", 34, 12));
-        this.repository.save(new Employee("James Henry", 33, 2));
+		this.repository.save(new Employee("President Obama", 54, 8));
+		this.repository.save(new Employee("Crystal Mac", 34, 12));
+		this.repository.save(new Employee("James Henry", 33, 2));
 	}
 }

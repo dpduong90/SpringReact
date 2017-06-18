@@ -1,9 +1,7 @@
-package demo.model;
+package com.example.springreact;
 
-import org.springframework.stereotype.Repository;
 import org.springframework.data.repository.CrudRepository;
 
-@Repository
 public interface EmployeeRepository extends CrudRepository<Employee, Long> {
-
+	
 }

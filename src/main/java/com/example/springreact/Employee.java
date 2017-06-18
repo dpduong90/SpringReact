@@ -1,4 +1,4 @@
-package demo.model;
+package com.example.springreact;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
